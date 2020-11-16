@@ -1,6 +1,6 @@
 using System;
 
-namespace ApiAsWindowsService
+namespace WindowsServiceHostTemplate
 {
     public class WeatherForecast
     {

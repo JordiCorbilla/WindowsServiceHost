@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ApiAsWindowsService": {
+    "WindowsServiceHostTemplate": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
