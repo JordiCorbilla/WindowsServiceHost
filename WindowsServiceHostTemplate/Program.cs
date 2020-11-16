@@ -1,9 +1,6 @@
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.AspNetCore.Hosting;
-using System;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.EventLog;
 
 namespace WindowsServiceHostTemplate
@@ -29,9 +26,9 @@ namespace WindowsServiceHostTemplate
                 {
                     webBuilder.UseStartup<Startup>();
                 })
-                .ConfigureWebHost(config =>
+                .ConfigureWebHost(config => 
                 {
-                    config.UseUrls("http://*:5050");
+                    config.UseUrls("http://*:5050"); 
                 }).UseWindowsService();
     }
 }
