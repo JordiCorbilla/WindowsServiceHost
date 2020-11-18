@@ -21,14 +21,11 @@ namespace WindowsServiceHostTemplate
                         config.LogName = "Sample API Service";
                         config.SourceName = "Sample API Service Source";
                     });
+                    services.AddHostedService<Worker>();
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
                 }).UseWindowsService();
-        //.ConfigureWebHost(config => 
-        //{
-        //    config.UseUrls("http://*:5050"); 
-        //})
     }
 }
