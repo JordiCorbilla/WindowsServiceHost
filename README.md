@@ -58,3 +58,5 @@ info[: WindowsServiceHostTemplate.Worker[0]
 Once the application is running, navigate here -> <https://localhost:5001/api/weatherforecast> and you'll see the data.
 
 And also here for the Swagger API -> <https://localhost:5001/swagger/api/index.html>
+
+![apisample](apisample.png)
