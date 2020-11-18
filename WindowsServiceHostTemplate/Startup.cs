@@ -72,7 +72,7 @@ namespace WindowsServiceHostTemplate
             })
             .UseMvc();
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
             app.UseRouting();
 
