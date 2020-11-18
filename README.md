@@ -1,5 +1,5 @@
 # Windows Service Host
-Hosting a .NET 5 WebAPI on a Windows Service
+Hosting a .NET 5 WebAPI in a Windows Service
 
 ### Create the service
 
