@@ -12,4 +12,6 @@ C:\WINDOWS\system32>sc start HostedService
 
 ### Navigate to the API
 
-Navigate here -> <http://localhost:5050/weatherforecast> and you'll see the data
+Navigate here -> <http://localhost:5050/api/weatherforecast> and you'll see the data
+
+And also here for the Swagger API -> <http://localhost:5050/swagger/api/index.html>
