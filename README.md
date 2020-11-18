@@ -1,5 +1,7 @@
 # Windows Service Host
-Hosting a .NET 5 WebAPI on a Windows Service
+Hosting a .NET 5 WebAPI in a Windows Service
+
+This project serves as a template to scaffold your WebAPI projects using .net 5 and hosting it in a Windows Service
 
 ### Create the service
 
