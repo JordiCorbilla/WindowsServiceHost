@@ -60,3 +60,16 @@ Once the application is running, navigate here -> <https://localhost:5001/api/we
 And also here for the Swagger API -> <https://localhost:5001/swagger/api/index.html>
 
 ![apisample](apisample.png)
+
+### Packages Used
+
+```xml
+<PackageReference Include="Serilog" Version="2.10.0" />
+<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
+<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.0" />
+<PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+<PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+<PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.0" />
+```
