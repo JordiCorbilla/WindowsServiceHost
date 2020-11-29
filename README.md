@@ -2,7 +2,7 @@
 
 **Hosting a .NET 5 WebAPI in a Windows Service**
 
-This project serves as a template to scaffold your WebAPI projects using .net 5 and hosting it in a Windows Service. As it's built using only .net 5, you can launch the project locally on IIS Express, as a command line tool or as a windows service. Using the windows service approach will let you host it on your server without having to use IIS.
+This project serves as a template to scaffold your Swagger Web API projects using .net 5 and hosting it in a Windows Service. As it's built using only .net 5, you can launch the project locally on IIS Express, as a command line tool or as a windows service. Using the windows service approach will let you host it on your server without having to use IIS.
 
 ### Create the service
 
