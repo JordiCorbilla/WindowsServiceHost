@@ -6,7 +6,7 @@ This project serves as a template to scaffold your Swagger Web API projects usin
 
 ### Create the service
 
-```bash
+```powershell
 C:\>sc create HostedService binpath=C:\WindowsServiceHostTemplate\bin\Debug\net5.0\WindowsServiceHostTemplate.exe
 [SC] CreateService SUCCESS
 
@@ -17,7 +17,7 @@ C:\WINDOWS\system32>sc start HostedService
 
 You can run the application as a simple console app and see the same results:
 
-```bash
+```powershell
 C:\WindowsServiceHostTemplate\bin\Debug\net5.0>WindowsServiceHostTemplate.exe
 info: WindowsServiceHostTemplate.Worker[0]
       Worker running at: 11/18/2020 20:18:42 +00:00
